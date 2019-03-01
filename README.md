@@ -5,7 +5,7 @@ Step by Step:
 
 1. Download newest Version. (Clone or Download Button)
 2. Drag MobHealth folder inside MobHealth3-Kronos3-Edition-master into World of Warcraft 1.12\Interface\AddOns.
-3. Download: bit.ly/WoWKronosDB
+3. Download:  https://www.bit.ly/WoWKronosDB
 4. Put that file into World of Warcraft 1.12\WTF\Account\AccountName\SavedVariables
 5. Done
 
