@@ -40,9 +40,9 @@ local recentDamage, totalDamage = 0, 0
 local startPercent, lastPercent = 100, 100
 
 local defaults = {
-    saveData = false,
+    saveData = true,
     precision = 10,
-    stableMax = false,
+    stableMax = true,
 }
 
 -- Metatable that provides compat for mods that index MobHealthDB directly
@@ -80,10 +80,10 @@ function MobHealth3:OnInitialize()
 				set = function(val)
 					if val == false then
 						--MobHealth3DB = nil
-						MobHealth3Config.saveData = val
+						--MobHealth3Config.saveData = val
 					else
 						--MobHealth3DB = MH3Cache
-						MobHealth3Config.saveData = val
+						--MobHealth3Config.saveData = val
 					end
 				end,
 			},
@@ -112,29 +112,12 @@ function MobHealth3:OnInitialize()
                     MH3Cache = {}
                     AccumulatorHP = {}
                     AccumulatorPerc = {}
-                    MobHealth3DB = MobHealth3Config.saveData and {} or nil
+                    --MobHealth3DB = MobHealth3Config.saveData and {} or nil
                     self:Print("Cache/Database reset")
                 end,
             },
 		},
 	})
-    
-    -- MH/MH2 database converter. MI2 too if the user follows the instructions
-    if MobHealthDB and not MobHealthDB.thisIsADummyTable then
-        -- Turn on saving
-        MobHealth3Config.saveData = true
-
-        for k,v in pairs(MobHealthDB) do
-            local _, _, pts, pct = string.find(v, "(%d+)/(%d+)")
-            if pts then
-                local maxHP = math.floor(pts/pct * 100 + 0.5)
-                MH3Cache[k] = maxHP
-            end
-        end
-        self:Print("Old MobHealth/MobHealth2/MobInfo2 database detected and converted. MH3 has also automatically turned on saving for you to preserve the data")
-    end
-
-    MobHealthDB = { thisIsADummyTable = true }
     setmetatable(MobHealthDB, compatMT) -- Metamethod proxy ENGAGE!! </cheesiness>
 end
 
