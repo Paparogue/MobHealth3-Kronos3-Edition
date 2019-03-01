@@ -4,17 +4,19 @@ MobHealth3 Kronos Edition 1.12 - Show all NPC Health. (Extracted from vanilla-tw
 Step by Step:
 
 1. Download newest Version. (Clone or Download Button)
-2. Drag MobHealth folder into World of Warcraft 1.12\Interface\AddOns.
-3. Download: bit.ly/MobHealthKronosDB
+2. Drag MobHealth folder inside MobHealth3-Kronos3-Edition-master into World of Warcraft 1.12\Interface\AddOns.
+3. Download: bit.ly/WoWKronosDB
 4. Put that file into World of Warcraft 1.12\WTF\Account\AccountName\SavedVariables
-5. Right Click -> Properties -> Activate Ready-Only and Security approved (if an option).
-6. Done
+5. Done
+
+Standard Blizzard UI User also need: https://www.wowace.com/projects/project-14403/files
+=> This is not the case for pfUI or Luna.
 
 # Example
 ![alt text](https://i.imgur.com/2xVqsiU.png)
 
 # Changes
-- Removed recalculation of Health values. (We have exact Values)
+- Removed guessing of NPC Health values.
 - Fixed Boss Level to DB error.
 - Fixed nil return error.
 
