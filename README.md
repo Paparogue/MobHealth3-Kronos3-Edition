@@ -7,7 +7,7 @@ Step by Step:
 2. Drag MobHealth folder into World of Warcraft 1.12\Interface\AddOns.
 3. Download: bit.ly/MobHealthKronosDB
 4. Put that file into World of Warcraft 1.12\WTF\Account\AccountName\SavedVariables
-5. Right Click -> Properties -> Activate Ready-Only and Secruity approved (if an option).
+5. Right Click -> Properties -> Activate Ready-Only and Security approved (if an option).
 6. Done
 
 # Example
