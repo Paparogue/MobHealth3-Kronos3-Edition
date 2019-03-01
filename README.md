@@ -1,5 +1,5 @@
 # MobHealth3-Kronos3-Edition
-MobHealth3 Kronos Edition 1.12 - Show all NPC Health. (Extracted from vanilla-twinhead.twinstar.cz).
+MobHealth3 Kronos Edition 1.12 - Show exact NPC Health. (Extracted from vanilla-twinhead.twinstar.cz).
 
 Step by Step:
 
@@ -10,7 +10,6 @@ Step by Step:
 5. Done
 
 Standard Blizzard UI User also need: https://www.wowace.com/projects/project-14403/files
-=> This is not the case for pfUI or Luna.
 
 # Example
 ![alt text](https://i.imgur.com/2xVqsiU.png)
