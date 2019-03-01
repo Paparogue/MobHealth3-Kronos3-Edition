@@ -78,13 +78,6 @@ function MobHealth3:OnInitialize()
 				type = "toggle",
 				get = function() return not not MobHealth3DB end, -- "Double negatives for the not lose!" -Wobin
 				set = function(val)
-					if val == false then
-						--MobHealth3DB = nil
-						--MobHealth3Config.saveData = val
-					else
-						--MobHealth3DB = MH3Cache
-						--MobHealth3Config.saveData = val
-					end
 				end,
 			},
 			precision = {
@@ -112,7 +105,6 @@ function MobHealth3:OnInitialize()
                     MH3Cache = {}
                     AccumulatorHP = {}
                     AccumulatorPerc = {}
-                    --MobHealth3DB = MobHealth3Config.saveData and {} or nil
                     self:Print("Cache/Database reset")
                 end,
             },
