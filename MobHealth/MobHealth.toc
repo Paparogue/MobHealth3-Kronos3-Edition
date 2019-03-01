@@ -1,7 +1,7 @@
 ## Interface: 11200
 ## Author: AbusivePapi
-## Title: MobHealth3 Kronos3 |cff7fff7f -Ace2-|r
-## Version: 3.3
+## Title: MobHealth3 Kronos3 |cff7fff7f -AbusivePapi-|r
+## Version: 3.4
 ## OptionalDeps: Ace2, MobInfo2
 ## Notes: Exact Mob Health.
 ## SavedVariables: MobHealth3DB, MobHealth3Config, MobHealthDB
