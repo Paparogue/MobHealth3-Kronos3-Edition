@@ -11,7 +11,7 @@ Step by Step:
 6. Done
 
 # Example
-![alt text](https://i.imgur.com/MtMUjIQ.png)
+![alt text](https://i.imgur.com/2xVqsiU.png)
 
 # Changes
 - Removed recalculation of Health values. (We have exact Values)
