@@ -1,5 +1,5 @@
 # MobHealth3-Kronos3-Edition
-MobHealth3 Kronos Edition 1.12 - Show exact NPC Health. (Extracted from vanilla-twinhead.twinstar.cz).
+MobHealth3 Kronos Edition 1.12 - Shows the exact NPC Health. (Extracted from vanilla-twinhead.twinstar.cz).
 
 Step by Step:
 
