@@ -4,9 +4,9 @@ MobHealth3 Kronos Edition 1.12 - Show exact NPC Health. (Extracted from vanilla-
 Step by Step:
 
 1. Download newest Version. (Clone or Download Button)
-2. Drag MobHealth folder inside MobHealth3-Kronos3-Edition-master into World of Warcraft 1.12\Interface\AddOns.
+2. Drag the MobHealth folder inside of MobHealth3-Kronos3-Edition-master into World of Warcraft 1.12\Interface\AddOns.
 3. Download:  https://www.bit.ly/WoWKronosDB
-4. Put that file into World of Warcraft 1.12\WTF\Account\AccountName\SavedVariables
+4. Put the file from step 3 into World of Warcraft 1.12\WTF\Account\AccountName\SavedVariables
 5. Done
 
 Standard Blizzard UI User also need: https://www.wowace.com/projects/project-14403/files
