@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Author: Neronix
-## Title: MobHealth3 Kronos3 |cff7fff7f -AbusivePapi-|r
+## Title: MobHealth3 Kronos3
 ## Version: 3.4
 ## OptionalDeps: Ace2, MobInfo2
 ## Notes: Exact Mob Health.
