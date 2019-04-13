@@ -1,6 +1,6 @@
 ## Interface: 11200
-## Author: Neronix
-## Title: MobHealth3 Kronos3
+## Author: Neronix & PapaRogue
+## Title: MobHealth3 Kronos3 Edition
 ## Version: 3.4
 ## OptionalDeps: Ace2, MobInfo2
 ## Notes: Exact Mob Health.
